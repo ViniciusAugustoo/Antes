@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +16,7 @@
       <h1>Calculadora de gorjetas</h1>
       <section>
         <div class="bill">
-          <label for="yourBill">Bill</label>
+          <label for="yourBill">Bill: </label>
           <input 
             type="number" 
             placeholder="Your bill" 
@@ -24,18 +24,18 @@
         </div>
         <div>
           <div class="space-between">
-            <label for="">Select tip</label
+            <label for="">Select tip: </label
             ><span id="tipPercent">0%</span>
           </div>
           <input type="range" value="0" id="tipInput" class="range" />
         </div>
         <div class="space-between">
-          <span>Tip</span>
+          <span>Tip: </span>
           <span id="tipValue"></span>
         </div>
         <hr />
         <div class="space-between total">
-          <span>Total</span>
+          <span>Total = </span>
           <span id="totalWithTip"></span>
         </div>
       </section>
@@ -43,8 +43,8 @@
       <section>
         <div>
           <div class="space-between">
-            <label for="splitInput">Split</label>
-            <span id="splitValue">1</span>
+            <label for="splitInput">Split: </label>
+            <span id="splitValue"></span>
           </div>
           <input
             type="range"
@@ -56,7 +56,7 @@
           />
         </div>
         <div class="space-between">
-          <span>Bill each</span>
+          <span>Bill each:</span>
           <span id="billEach"></span>
         </div>
       </section>
